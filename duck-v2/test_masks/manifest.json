@@ -1,0 +1,38 @@
+{
+  "seed": 5400,
+  "sampler": "exact-k-with-randperm",
+  "image_size": 224,
+  "patch_size": 8,
+  "mask_ratio": 0.5,
+  "fill_value": 0.0,
+  "entries": [
+    {
+      "file": "919bb73410eb4ce9b6b87612a6ca3d77.jpg",
+      "image_size": 224,
+      "patch_size": 8,
+      "grid": [
+        28,
+        28
+      ],
+      "mask_ratio_target": 0.5,
+      "mask_ratio_real": 0.5,
+      "fill_value": 0.0,
+      "mask_npy": "/Users/wuzirui/roas5400-lab-private/duck-v2/test_masks/919bb73410eb4ce9b6b87612a6ca3d77_mask_p8_fine.npy",
+      "output_masked_image": "/Users/wuzirui/roas5400-lab-private/duck-v2/test/919bb73410eb4ce9b6b87612a6ca3d77.jpg"
+    },
+    {
+      "file": "WechatIMG2166.jpg",
+      "image_size": 224,
+      "patch_size": 8,
+      "grid": [
+        28,
+        28
+      ],
+      "mask_ratio_target": 0.5,
+      "mask_ratio_real": 0.5,
+      "fill_value": 0.0,
+      "mask_npy": "/Users/wuzirui/roas5400-lab-private/duck-v2/test_masks/WechatIMG2166_mask_p8_fine.npy",
+      "output_masked_image": "/Users/wuzirui/roas5400-lab-private/duck-v2/test/WechatIMG2166.jpg"
+    }
+  ]
+}

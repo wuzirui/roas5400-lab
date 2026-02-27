@@ -17,15 +17,12 @@ dependencies = [
     "torch~=2.2.2; sys_platform == 'darwin' and platform_machine == 'x86_64'",
     "torchvision>=0.17.0",
     "tqdm>=4.66.0",
+    "einx"
 ]
 
 [build-system]
 requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
-
-[tool.setuptools]
-packages = []
-py-modules = []
 
 [tool.pytest.ini_options]
 log_cli = true

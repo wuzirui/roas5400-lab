@@ -6,7 +6,8 @@ import torch
 from jaxtyping import Bool, Float, Int
 from torch import Tensor
 
-
+# You may modify this for better organization
+from src import *
 
 def run_linear(
     d_in: int,

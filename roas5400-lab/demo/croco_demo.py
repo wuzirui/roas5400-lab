@@ -113,7 +113,7 @@ def main() -> None:
         )
         model.eval()
     except NotImplementedError as exc:
-        raise RuntimeError("CroCo is not implemented yet in src/croco.py") from exc
+        raise RuntimeError("CroCo is not implemented yet") from exc
 
     img_a, img_b = _find_duck_images(num_images=2)
     target = _load_image(img_a, args.image_size)

@@ -27,6 +27,7 @@ conda activate roas5400
 From this directory (`roas5400-lab/`), run:
 
 ```bash
+cd roas5400-lab/
 pip install -e .
 ```
 
